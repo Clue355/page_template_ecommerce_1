@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.headerDiv {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.headerImage {
+    width: 100%;
+    height: 40rem;
+}
+
+.bodyInfo {
+    margin: 2rem auto;
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 60%;
+}
+
+.bold {
+    font-weight: bold;
+    color: grey;
+}
+
+.font-size-med {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+}
+
+.buyingInfo {
+    height: 3.5rem;
+    width: 27%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+}
+
+.spaced-apart {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.button {
+    border: none;
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}

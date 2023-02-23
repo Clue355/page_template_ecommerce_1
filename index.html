@@ -8,31 +8,76 @@
         <title>Document</title>
     </head>
     <body>
+        <!-- header section -->
         <section>
+            <!-- parent that centers everything -->
             <div class="bodyParent">
+                <!-- header w/ img -->
                 <div class="headerDiv">
-                    <image class="headerImage" src="img/shirt_image_1.jpg" alt="image1"></image>
+                    <image id="image" src="img/shirt_image_1.jpg" alt="default header image"></image>
+                    <!-- buttons below the image -->
+                    <div id="button-container">
+                        <p>Colors:</p>
+                        <button
+                            id="button1"
+                            class="color-button"
+                            data-image="img/shirt_image_1.jpg"
+                            style="background-color: #7e6f8c"
+                        ></button>
+                        <button
+                            id="button2"
+                            class="color-button"
+                            data-image="img/shirt_image_2.jpg"
+                            style="background-color: #e0ccd6"
+                        ></button>
+                        <button
+                            id="button3"
+                            class="color-button"
+                            data-image="img/shirt_image_3.jpg"
+                            style="background-color: #efe7c0"
+                        ></button>
+                    </div>
                 </div>
-
+            </div>
+        </section>
+        <!-- body section -->
+        <section class="body-section">
+            <!-- parent that centers everything -->
+            <div class="bodyParent">
+                <!-- body -->
                 <div class="bodyInfo">
+                    <!-- body lower left text -->
                     <p class="text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Nam aliquam sem et tortor. Lectus urna duis convallis convallis
                         tellus id interdum velit laoreet. At erat pellentesque adipiscing commodo elit at imperdiet dui
                         accumsan.
                     </p>
+                    <!-- body lower right box -->
                     <div class="buyingInfo">
+                        <!-- text left side small box -->
                         <div class="spaced-apart">
                             <p class="bold">Available</p>
                             <p class="font-size-med">T-shirt</p>
                         </div>
+                        <!-- text & button right side small box -->
                         <div class="spaced-apart">
                             <p>Price|</p>
-                            <button class="button">Buy Now</button>
+                            <!-- popup-box -->
+                            <div id="popup" class="popup">
+                                <div class="flex-row">
+                                    <img class="pop-up-img" src="img-wallets/bit_coin_image.jpg" alt="image1" />
+                                    <img class="pop-up-img" src="img-wallets/coin_base_image.jpg" alt="image2" />
+                                    <img class="pop-up-img" src="img-wallets/doge_coin_image.jpg" alt="image3" />
+                                </div>
+                            </div>
+                            <!-- popup-button -->
+                            <button id="my-button" class="button">Buy Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <script src="index.js"></script>
     </body>
 </html>

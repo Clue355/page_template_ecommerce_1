@@ -9,7 +9,10 @@ A template web page for ecommerce sites
 
 **Client:** HTML,CSS, Javascript
 
+## Features
 
+- Mobile Compatible
+- Popup QR codes
 
 ## License
 

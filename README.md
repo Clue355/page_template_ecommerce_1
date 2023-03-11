@@ -3,6 +3,7 @@
 
 A template web page for ecommerce sites
 
+![image](https://user-images.githubusercontent.com/54788134/224458338-b2b493fc-8ee2-4dac-9039-4201fd78db96.png)
 
 ## Tech Stack
 

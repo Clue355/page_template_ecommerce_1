@@ -1,1 +1,1 @@
-# web_page_template_1
+# Page Template ecommerce 1
